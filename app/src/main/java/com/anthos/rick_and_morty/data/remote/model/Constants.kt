@@ -14,4 +14,10 @@ object Constants {
     const val LOCATION = "location"
     const val EPISODE = "episode"
     const val CREATED = "created"
+    const val COUNT = "count"
+    const val PAGES = "pages"
+    const val NEXT = "next"
+    const val PREV = "prev"
+    const val INFO = "info"
+
 }
