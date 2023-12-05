@@ -19,5 +19,6 @@ object Constants {
     const val NEXT = "next"
     const val PREV = "prev"
     const val INFO = "info"
+    const val PAGE = "page"
 
 }
