@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.anthos.rick_and_morty.presentation.characters.CharactersUiEvent.*
 import com.anthos.rick_and_morty.presentation.characters.CharactersUiState.*
-import com.anthos.rick_and_morty.presentation.characters.core.ViewModelPresentation
+import com.anthos.rick_and_morty.presentation.core.ViewModelPresentation
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
