@@ -1,4 +1,4 @@
-package com.anthos.rick_and_morty.presentation.characters.core
+package com.anthos.rick_and_morty.presentation.core
 
 import kotlinx.coroutines.flow.StateFlow
 interface ViewModelPresentation<TUiEvent : UiEvent, TUiState : UiState> {
