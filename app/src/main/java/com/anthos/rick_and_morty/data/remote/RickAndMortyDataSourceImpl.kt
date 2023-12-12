@@ -8,6 +8,12 @@ class RickAndMortyDataSourceImpl constructor(private val api: RickAndMortyApi) :
     RickAndMortyDataSource {
 
     override suspend fun getCharacters(page: Int): CharactersApiModel {
-        return api.getCharacters(page)
+        val response = api.getCharacters(page)
+
+        if (response != null) {
+            return response
+        } else {
+            throw Exception("CharactersApiModel is null")
+        }
     }
 }
